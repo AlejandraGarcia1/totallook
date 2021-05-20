@@ -1,8 +1,17 @@
-import React from 'react';
+import React, {Fragment} from 'react';
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
-        <h3>Hola Andy</h3>
+			<Fragment>
+				<h3>Hola Andy</h3>
+				<Link to="/categories">
+					<p>Mostrar todas las categorías</p>	
+				</Link>	
+			</Fragment>
+
+        
+
     )
 
 };

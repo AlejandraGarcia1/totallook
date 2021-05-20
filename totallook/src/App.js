@@ -14,15 +14,17 @@ import Categories from './Pages/Categories/Categories'
 import Shopping from './Pages/ShoppingCart/ShoppingCart'
 import Header from './Components/Header'
 
+import Footer from './Components/Footer'
+
 function App() {
   return (
-
       <Router>
         <div>
-          <Header />
+          <Header />					
           <div className="btn-group">					
             <Link to="/" className="btn btn-dark">
-            Inicio
+            Inicio						
+
             </Link>
             <Link to="/contacto" className="btn btn-dark">
             Contacto
@@ -30,12 +32,14 @@ function App() {
             <NavLink to="/nosotros" className="btn btn-dark" activeClassName="active">
             Nosotros
             </NavLink>
-          </div>
-        </div>
-        <hr/>		
+
+          </div>					
+        </div>				
+        <hr/>													
         <Switch>
         <Route path="/" exact>
-            <Home />
+            <Home />						
+
           </Route>
           <Route path="/categories">
             <Categories />
@@ -47,11 +51,16 @@ function App() {
             <Product />
           </Route>
           <Route path="/shoppingcart">
-            <Shopping />
+
+            <Shopping />						
           </Route>
         </Switch>
-      </Router>
-    
+				<div>
+					<hr/>
+					<Footer />
+				</div>
+      </Router>    
+
   );
 };
 
