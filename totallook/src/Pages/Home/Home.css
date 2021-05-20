@@ -1,0 +1,47 @@
+.btnCategories{
+	width: 156px;
+	height: 23px;
+	top: 282px;
+	margin-left: 102px;
+	margin-bottom: 15px;
+	background-color: #55A4D1;
+	border-radius: 3px;
+}
+.btnCategories p{
+	color: white;
+	font-size: 10px;
+	margin-left: 15px;
+}
+.newCollection{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 18px;
+	width: 340px;
+	height: 96px;
+	margin-bottom: 15px;
+}
+.sectionBanner{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 330px;
+	height: 300px;
+	margin-left: 18px;
+}
+.banners{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap; 
+	align-content: space-between;
+	width: 163px;
+	height: 281px;
+	top: auto; 
+}
+.titleGreen{
+	width: 115px;
+	height: 24.55px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	box-sizing: content-box;
+}

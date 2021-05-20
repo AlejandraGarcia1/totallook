@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,23 +14,31 @@ import Categories from './Pages/Categories/Categories'
 import Shopping from './Pages/ShoppingCart/ShoppingCart'
 import Header from './Components/Header/Header'
 
+
 import Footer from './Components/Footer/Footer'
 
 function App() {
+
+
   return (
       <Router>
         <div>
           <Header />					
           <div className="btn-group">					
             <Link to="/" className="btn btn-dark">
-            Inicio						
-
+            Inicio		
+						</Link>
+            <Link to="/listproducts" className="btn btn-dark">
+            listproducts
             </Link>
-            <Link to="/contacto" className="btn btn-dark">
-            Contacto
-            </Link>					
-            <NavLink to="/nosotros" className="btn btn-dark" activeClassName="active">
-            Nosotros
+						<Link to="/categories" className="btn btn-dark">
+            categories
+            </Link>	
+						<Link to="/product" className="btn btn-dark">
+            product
+            </Link>	           				
+            <NavLink to="/shoppingcart" className="btn btn-dark" activeClassName="active">
+            shopingcard
             </NavLink>
 
           </div>					

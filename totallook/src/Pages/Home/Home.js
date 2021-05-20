@@ -1,32 +1,41 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment} from "react";
 import { Link } from "react-router-dom";
+import banner1 from '../../Assets/img/banners/banner_home1.png'
+import banner2 from '../../Assets/img/banners/womenNewCollection.png'
+import banner3 from '../../Assets/img/banners/menNewCollection.png'
+import banner4 from '../../Assets/img/banners/ropaMujer.png'
+import banner5 from '../../Assets/img/banners/zapatos.png'
+import banner6 from '../../Assets/img/banners/bolsas.png'
+import banner7 from '../../Assets/img/banners/greenBanner.png'
+import title from '../../Assets/img/banners/totalGreen.png'
+import './Home.css'
 
 const Home = () => {
-  const [products, setProducts] = useState([]);
-
-  const getData = async () => {
-    const data = await fetch("http://localhost:3001/products");
-    const dataJson = await data.json();
-    console.log(dataJson);
-
-    setProducts(dataJson);
-  };
-
-  useEffect(() => {
-    getData();
-  }, []);
+  
 
   return (
     <Fragment>
-      <h3>Hola Andy</h3>
-      <Link to="/categories">
-        <p>Mostrar todas las categorías</p>
-      </Link>
-      {/* {products.map((item) => {
-        <li key={products.id}> {item.product} </li>;
-      })} */}
-      {products && //&& para saber si existe
-        products.map((item) => <li key={item.id}> {item.product} </li>)}
+      <img src={banner1} alt='banner1Img'/>
+      <div className="newCollection">
+        <img src={banner2} alt='banner2Img'/>
+        <img src={banner3} alt='banner3Img'/>
+      </div>
+      <div className='btnCategories'>
+        <Link to="/categories" style={{ textDecoration: 'none' }} >
+          <p>Mostrar todas las categorías</p>
+        </Link>
+      </div>
+      <div className='sectionBanner'>
+        <div className='banners'>
+          <img src={title} alt='titleGreen' className='titleGreen'></img>
+          <img src={banner7} alt='banner7Img'/>
+        </div>
+        <div className='banners'>
+          <img src={banner4} alt='banner4Img'/>
+          <img src={banner5} alt='banner5Img'/>
+          <img src={banner6} alt='banner6Img'/>
+        </div>
+      </div>
     </Fragment>
   );
 };

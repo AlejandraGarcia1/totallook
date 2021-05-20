@@ -1,11 +1,11 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import './Footer.css'
 import footer from '../../Assets/img/banners/footer.png'
 
 const Footer = () => {
     return (
         <div className="footer">
-         <img src={footer}></img>
+         <img src={footer} alt="footerImg"></img>
         </div>
         
     );
