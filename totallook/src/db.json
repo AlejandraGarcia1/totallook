@@ -1,0 +1,35 @@
+{
+  "ropa": [
+    { "id": 1, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 2, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 3, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 4, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 5, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 6, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 7, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 8, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 9, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" }
+  ],
+  "zapatos": [
+    { "id": 1, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 2, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 3, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 4, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 5, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 6, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 7, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 8, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 9, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" }
+  ],
+  "bolsas": [
+		{ "id": 1, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 2, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 3, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 4, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 5, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 6, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 7, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 8, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" },
+		{ "id": 9, "producto": "", "imagen": "", "descripcion": "", "categoria": "", "color": "", "talla": "", "precio": "" }
+	]
+}
