@@ -12,9 +12,9 @@ import Product from './Pages/Product/Product'
 import ListProducts from './Pages/ListProducts/ListProducts'
 import Categories from './Pages/Categories/Categories'
 import Shopping from './Pages/ShoppingCart/ShoppingCart'
-import Header from './Components/Header'
+import Header from './Components/Header/Header'
 
-import Footer from './Components/Footer'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (

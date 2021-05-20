@@ -1,12 +1,12 @@
 import React from 'react';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import header from '../../Assets/img/banners/header.png';
 
 const Header = () => {
     return (
         <div>
-            <p>Aqui va el logo</p>
-            <p>LogIn</p>
-            <ShoppingCartIcon />
+            <img src={header}></img>
+            {/* <ShoppingCartIcon /> */}
         </div>
         
     );
