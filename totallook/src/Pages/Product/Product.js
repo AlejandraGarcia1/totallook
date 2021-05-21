@@ -4,6 +4,7 @@ import { ProductData } from "../../Data/ProductsData";
 import Stars from "../../Assets/clothes/stars.png";
 import Return from '../../Assets/img/return.png';
 import './Product.css'
+import Redes from '../../Assets/img/banners/Redes.png'
 
 const Product = () => {
 	const data = ProductData;
@@ -35,7 +36,7 @@ const Product = () => {
 						return(
 							<div key={item.id} className='items'>							
 								<div className = "imagen">
-								<img src={item.image} alt="product" ></img>  
+								<img src={Redes} alt="product" ></img>  
 								</div>
 								<p className="">{item.product}</p>                
 								<p className="">{item.descripcion}</p>
