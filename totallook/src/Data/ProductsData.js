@@ -12,7 +12,7 @@ export const ProductData = [
 		},		
 		{
 			"id": 3,
-			"product": "Playera con diseño de caballo",
+			"product": "Playera caballo",
 			"image": "https://github.com/AlejandraGarcia1/totallook/blob/main/totallook/src/Assets/clothes/blue-t-shirts.png?raw=true",
 			"descripcion": "Playera de algodón con diseño",
 			"category": "ropa",
@@ -22,7 +22,7 @@ export const ProductData = [
 		},
 		{
 			"id": 4,
-			"product": "Playera con diseño de flores",
+			"product": "Playera flores",
 			"image": "https://github.com/AlejandraGarcia1/totallook/blob/main/totallook/src/Assets/clothes/coloried-t-shirts.png?raw=true",
 			"descripcion": "Playera de algodón con diseño",
 			"category": "ropa",
@@ -32,7 +32,7 @@ export const ProductData = [
 		},
 		{
 			"id": 5,
-			"product": "Playera con diseño",
+			"product": "Playera diseño",
 			"image": "https://github.com/AlejandraGarcia1/totallook/blob/main/totallook/src/Assets/clothes/green-t-shirts.png?raw=true",
 			"descripcion": "Playera de algodón con diseño",
 			"category": "ropa",
@@ -42,7 +42,7 @@ export const ProductData = [
 		},
 		{
 			"id": 6,
-			"product": "Playera con diseño de bandera",
+			"product": "Playera bandera",
 			"image": "https://github.com/AlejandraGarcia1/totallook/blob/main/totallook/src/Assets/clothes/red-t-shirts.png?raw=true",
 			"descripcion": "Playera de algodón con diseño de bandera",
 			"category": "ropa",

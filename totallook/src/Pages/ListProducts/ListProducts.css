@@ -4,9 +4,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 280px;
-    height: 365px;
+    /* height: 365px; */
     margin-left: 17px;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 
 .items{
@@ -25,7 +25,7 @@
     top: 136px;
     padding-bottom: 15px;
     background: #F7F0F0;
-    border-radius: 3px;
+    border-radius: 3px;		
 }
 
 .itemImg{
@@ -41,7 +41,7 @@
     margin-bottom: -10px;
     font-size: 11px;
     /* padding-left: 5px; */
-    margin-left: 20px;
+    margin-left: 17px;
 }
 .price{
     text-align: center;
@@ -51,4 +51,11 @@
 .stars{
     width: 80%;
     margin-left:22px ;
+}
+
+.ofert{	
+	top: -143px;
+	left: 43px;
+	margin-left: 20px;
+	position: relative;
 }

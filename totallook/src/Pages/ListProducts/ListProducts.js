@@ -2,7 +2,8 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import { ProductData } from "../../Data/ProductsData";
 import Stars from "../../Assets/clothes/stars.png";
-import Return from '../../Assets/img/return.png'
+import Return from '../../Assets/img/return.png';
+import Ofert from "../../Assets/img/banners/ofert.png";
 
 import "./ListProducts.css";
 
@@ -35,8 +36,9 @@ const ListProducts = () => {
           data.map((item) => (
             <div key={item.id} className='items'>
               <div className="boxItem">
-				 <img src={item.image} alt="img" className='itemImg'/> 
-			  </div>        
+								 <img src={item.image} alt="img" className='itemImg'/>
+								 <img src={Ofert} alt="ofert" className="ofert"></img> 
+			 				 </div>        
                 <p className="product">{item.product}</p>
                 <p className="price">${item.price}</p>
                 <img src={Stars} alt="stars" className="stars" />
