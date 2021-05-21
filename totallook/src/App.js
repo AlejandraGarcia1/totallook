@@ -2,9 +2,7 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link,
-  NavLink
+  Route
 } from "react-router-dom";
 
 import Home from './Pages/Home/Home'
@@ -22,28 +20,8 @@ function App() {
 
   return (
       <Router>
-        <div>
-          <Header />					
-          <div className="btn-group">					
-            <Link to="/" className="btn btn-dark">
-            Inicio		
-						</Link>
-            <Link to="/listproducts" className="btn btn-dark">
-            listproducts
-            </Link>
-						<Link to="/categories" className="btn btn-dark">
-            categories
-            </Link>	
-						<Link to="/product" className="btn btn-dark">
-            product
-            </Link>	           				
-            <NavLink to="/shoppingcart" className="btn btn-dark" activeClassName="active">
-            shopingcard
-            </NavLink>
-
-          </div>					
-        </div>				
-        <hr/>													
+        <Header />
+        												
         <Switch>
         <Route path="/" exact>
             <Home />						
@@ -63,10 +41,7 @@ function App() {
             <Shopping />						
           </Route>
         </Switch>
-				<div>
-					<hr/>
-					<Footer />
-				</div>
+        <Footer />
       </Router>    
 
   );

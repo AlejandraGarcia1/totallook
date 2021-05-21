@@ -11,16 +11,6 @@ export const ProductData = [
 			"price": "250"
 		},
 		{
-			"id": 2,
-			"product": "Vestido",
-			"image": "https://github.com/AlejandraGarcia1/totallook/blob/main/totallook/src/Assets/clothes/striped-dress.png?raw=true",
-			"descripcion": "Vestido tipo mezclilla ligero",
-			"category": "ropa",
-			"color": "azul",
-			"size": "grande",
-			"price": "499"
-		},
-		{
 			"id": 3,
 			"product": "Playera con diseño de caballo",
 			"image": "https://github.com/AlejandraGarcia1/totallook/blob/main/totallook/src/Assets/clothes/blue-t-shirts.png?raw=true",
@@ -69,16 +59,6 @@ export const ProductData = [
 			"color": "azul",
 			"size": "mediana",
 			"price": "599"
-		},
-		{
-			"id": 8,
-			"product": "Vestido diseño rayado",
-			"image": "https://github.com/AlejandraGarcia1/totallook/blob/main/totallook/src/Assets/clothes/striped-dress.png?raw=true",
-			"descripcion": "Vestido de algodón ligero",
-			"category": "ropa",
-			"color": "blanco-azul",
-			"size": "mediano",
-			"price": "399"
 		},
 		{
 			"id": 9,
