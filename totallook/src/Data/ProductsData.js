@@ -9,17 +9,7 @@ export const ProductData = [
 			"color": "azul",
 			"size": "mediana",
 			"price": "250"
-		},
-		{
-			"id": 2,
-			"product": "Vestido",
-			"image": "https://github.com/AlejandraGarcia1/totallook/blob/main/totallook/src/Assets/clothes/striped-dress.png?raw=true",
-			"descripcion": "Vestido tipo mezclilla ligero",
-			"category": "ropa",
-			"color": "azul",
-			"size": "grande",
-			"price": "499"
-		},
+		},		
 		{
 			"id": 3,
 			"product": "Playera con diseño de caballo",
@@ -72,16 +62,6 @@ export const ProductData = [
 		},
 		{
 			"id": 8,
-			"product": "Vestido diseño rayado",
-			"image": "https://github.com/AlejandraGarcia1/totallook/blob/main/totallook/src/Assets/clothes/striped-dress.png?raw=true",
-			"descripcion": "Vestido de algodón ligero",
-			"category": "ropa",
-			"color": "blanco-azul",
-			"size": "mediano",
-			"price": "399"
-		},
-		{
-			"id": 9,
 			"product": "Suéter",
 			"image": "https://github.com/AlejandraGarcia1/totallook/blob/main/totallook/src/Assets/clothes/sweater.png?raw=true",
 			"descripcion": "Suéter cuello redondo snoopy",
@@ -89,6 +69,16 @@ export const ProductData = [
 			"color": "azul",
 			"size": "chica",
 			"price": "399"
-		}
+		},
+		{
+			"id": 9,
+			"product": "Blusa",
+			"image": "https://github.com/AlejandraGarcia1/totallook/blob/main/totallook/src/Assets/clothes/Blender-Shirt-PNG.png?raw=true",
+			"descripcion": "Blusa de lino",
+			"category": "ropa",
+			"color": "amarillo",
+			"size": "mediana",
+			"price": "280"
+		},
 ]
 

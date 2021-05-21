@@ -2,9 +2,7 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link,
-  NavLink
+  Route
 } from "react-router-dom";
 
 import Home from './Pages/Home/Home'
@@ -22,7 +20,8 @@ function App() {
 
   return (
       <Router>
-				<Header />      												
+        <Header />
+        												
         <Switch>
         <Route path="/" exact>
             <Home />
@@ -40,9 +39,7 @@ function App() {
             <Shopping />						
           </Route>
         </Switch>
-				<div>				
-					<Footer />
-				</div>
+        <Footer />
       </Router>    
 
   );
