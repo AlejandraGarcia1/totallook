@@ -6,6 +6,8 @@ import Return from '../../Assets/img/return.png';
 import './Product.css'
 import Redes from '../../Assets/img/banners/Redes.png'
 import Hot from '../../Assets/img/banners/hot.png'
+import ContIzq from '../../Assets/img/banners/contIzq.png'
+import ContDer from '../../Assets/img/banners/contDer.png'
 
 const Product = () => {
 	const data = ProductData;
@@ -46,25 +48,29 @@ const Product = () => {
 										<img src={Hot} alt="hot" ></img> 
 									</div>
 								</div>
-								<div className="information">	
-								
-															
+								<div className="information">									
 								<p className="producTitle">Producto: {item.product}</p>                
 								<p className="">Descrpción: {item.descripcion}</p>
 								<p className="">Color: {item.color}</p>
 								<p className="">Talla: {item.size}</p>
                 <p className="">Precio: ${item.price} MXN</p>
 								</div>
-							
-								<button>
-									<img onClick = { restar } src = { '' } alt = "izquierda" className = "izquierda"/>
-								</button>								
-								<div className = "r"> { contador } </div>
-								<button>
-										<img onClick = { sumar } src = { '' } alt = "derecha" className = "derecha"/>	
-								</button>
-							
-                <img src={Stars} alt="stars" className="stars" />
+								<div className="contador">						
+									<img onClick = { restar } src = { ContIzq } alt = "izquierda" className = "izquierda"/>														
+										<div className = "number"> { contador } </div>							
+									<img onClick = { sumar } src = { ContDer } alt = "derecha" className = "derecha"/>
+									<div className='btnAgregar'>
+        					<Link to="/shoppingcart" style={{ textDecoration: 'none' }} >
+        						  <p className="textCarrito">Agregar a mi carrito</p>
+        					</Link>
+      						</div>
+								</div>
+								<div className="puntuacion">							
+                <img src={Stars} alt="stars" className="starsPuntuacion" />
+								<Link to=""  style={{ color: 'black' }}>
+									<p className="comentarios">ver comentarios</p>
+									</Link>
+								</div>
               </div>
 						)
 
