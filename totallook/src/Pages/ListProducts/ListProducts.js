@@ -9,18 +9,7 @@ import "./ListProducts.css";
 
 const ListProducts = () => {
   const data = ProductData;
-  console.log(data);
-
-  // const getRopa = (e) => {
-  // 	const data = ProductData;
-  // 	console.log(e)
-  // 	console.log('categorias',data)
-  // 	if(e.target.innerText === "Ropa" ){
-  // 		return(data.filter(category => category.category === "ropa"))
-  // 	}
-
-  // }
-  // const data = ProductData
+  console.log(data);  
 
   return (
     <Fragment>
@@ -44,8 +33,7 @@ const ListProducts = () => {
                 <p className="product">{item.product}</p>
                 <p className="price">${item.price}</p>
                 <img src={Stars} alt="stars" className="stars" />
-              </div>
-            
+              </div>            
           ))}
       </div>
     </Fragment>
