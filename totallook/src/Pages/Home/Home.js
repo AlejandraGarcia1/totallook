@@ -31,7 +31,9 @@ const Home = () => {
           <img src={banner7} alt='banner7Img'/>
         </div>
         <div className='banners'>
-          <img src={banner4} alt='banner4Img'/>
+					<Link to="/listproducts">
+						<img src={banner4} alt='banner4Img'/>	
+					</Link>          
           <img src={banner5} alt='banner5Img'/>
           <img src={banner6} alt='banner6Img'/>
         </div>
