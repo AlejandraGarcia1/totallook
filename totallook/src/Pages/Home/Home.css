@@ -11,6 +11,7 @@
 	color: white;
 	font-size: 10px;
 	margin-left: 15px;
+	padding: 4px;
 }
 .newCollection{
 	display: flex;
@@ -44,4 +45,13 @@
 	margin-left: 30px;
 	margin-bottom: 10px;
 	box-sizing: content-box;
+}
+
+.bannerchico{
+	margin-left: 10px;
+	width: 600px;
+}
+
+.bannerchica{
+	width: 600px;
 }

@@ -22,32 +22,10 @@ function App() {
 
   return (
       <Router>
-        <div>
-          <Header />					
-          <div className="btn-group">					
-            <Link to="/" className="btn btn-dark">
-            Inicio		
-						</Link>
-            <Link to="/listproducts" className="btn btn-dark">
-            listproducts
-            </Link>
-						<Link to="/categories" className="btn btn-dark">
-            categories
-            </Link>	
-						<Link to="/product" className="btn btn-dark">
-            product
-            </Link>	           				
-            <NavLink to="/shoppingcart" className="btn btn-dark" activeClassName="active">
-            shopingcard
-            </NavLink>
-
-          </div>					
-        </div>				
-        <hr/>													
+				<Header />      												
         <Switch>
         <Route path="/" exact>
-            <Home />						
-
+            <Home />
           </Route>
           <Route path="/categories">
             <Categories />
@@ -59,12 +37,10 @@ function App() {
             <Product />
           </Route>
           <Route path="/shoppingcart">
-
             <Shopping />						
           </Route>
         </Switch>
-				<div>
-					<hr/>
+				<div>				
 					<Footer />
 				</div>
       </Router>    

@@ -1,0 +1,13 @@
+.product{
+	font-size: medium;	
+	font-weight: 500;
+}
+
+.price{
+	font-size: medium;	
+	font-weight: 400;
+}
+
+.fondo{
+	background-color: aqua;
+}
