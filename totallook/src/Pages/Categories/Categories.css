@@ -1,0 +1,46 @@
+h2{
+    color:  #55A4D1;
+    text-align: center; 
+}
+
+hr{
+    width: 150px;
+}
+
+.return{
+    width: 50px;
+height: 25px;
+left: 24px;
+top: 88px;
+
+background: #55A4D1;
+border-radius: 10px;
+border: none;
+}
+.boxCategories{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 5px; 
+    overflow: scroll;
+}
+
+.btn{
+    margin-bottom: 25px;
+}
+
+.btnReturn{
+   margin: 20px;
+}
+
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+}
+

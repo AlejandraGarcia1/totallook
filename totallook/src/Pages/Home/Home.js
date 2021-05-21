@@ -17,8 +17,8 @@ const Home = () => {
     <Fragment>
       <img src={banner1} alt='banner1Img'/>
       <div className="newCollection">
-        <img src={banner2} alt='banner2Img'/>
-        <img src={banner3} alt='banner3Img'/>
+        <img src={banner2} alt='banner2Img' className="bannerchica"/>
+        <img src={banner3} alt='banner3Img' className="bannerchico"/>
       </div>
       <div className='btnCategories'>
         <Link to="/categories" style={{ textDecoration: 'none' }} >
