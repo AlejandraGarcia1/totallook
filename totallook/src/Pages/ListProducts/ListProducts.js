@@ -3,9 +3,9 @@ import React, {Fragment} from 'react';
 
 
 
-const ListProducts = () => {
+const ListProducts = ({getBolsas}) => {
 	// const data = ProductData
-	// console.log(data)
+	console.log(getBolsas)
 
     return (
 			<Fragment>
