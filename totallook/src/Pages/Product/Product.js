@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { ProductData } from "../../Data/ProductsData";
 import Stars from "../../Assets/clothes/stars.png";
 import Return from '../../Assets/img/return.png';
+import './Product.css'
 
 const Product = () => {
 	const data = ProductData;
@@ -32,17 +33,19 @@ const Product = () => {
 					data.map((item) => {
 					if(item.id === 1 ){
 						return(
-							<div key={item.id} className='items'> 
-								 <img src={item.image} alt="product"></img>                    
-                <p className="product">{item.product}</p>
-								<p className="price">{item.descripcion}</p>
-								<p className="price">{item.color}</p>
-								<p className="price">{item.size}</p>
-                <p className="price">${item.price}</p>
+							<div key={item.id} className='items'>							
+								<div className = "imagen">
+								<img src={item.image} alt="product" ></img>  
+								</div>
+								<p className="">{item.product}</p>                
+								<p className="">{item.descripcion}</p>
+								<p className="">{item.color}</p>
+								<p className="">{item.size}</p>
+                <p className="">${item.price}</p>
 								<button>
 									<img onClick = { restar } src = { '' } alt = "izquierda" className = "izquierda"/>
 								</button>								
-								<div className = "number"> { contador } </div>
+								<div className = "r"> { contador } </div>
 								<button>
 										<img onClick = { sumar } src = { '' } alt = "derecha" className = "derecha"/>	
 								</button>
