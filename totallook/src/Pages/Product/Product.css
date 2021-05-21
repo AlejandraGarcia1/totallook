@@ -1,0 +1,64 @@
+.imagen{
+	margin-left: 35px;
+}
+
+.hotOffert{
+	margin-top: -197px;
+	margin-left: 27px;
+}
+
+.information{
+	margin-left: 35px;
+	margin-top: 170px;
+	font-size: 13px;
+}
+
+.producTitle{
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.contador{
+	display: flex;
+	margin-left: 35px;
+	margin-top: 25px;
+}
+
+/* .number{
+	border-color: black;
+} */
+
+.btnAgregar{
+	width: 137px;
+	height: 27px;
+	left: 168px;
+	top: 521px;
+	background: #55A4D1;
+	border-radius: 10px;
+}
+
+.textCarrito{
+	color: white;
+	font-size: 13.5px;
+	margin-top: 3px;
+	margin-left: 9px;
+}
+
+.puntuacion{
+	display: flex;
+}
+
+.starsPuntuacion{
+	width: 100px;
+	height: 17px;
+	margin-top: 25px;
+	margin-left: 34px;
+}
+
+.comentarios{
+	font-size: 14px;
+	margin-top: 23px;
+	margin-left: 25px;
+	color: black;
+}
+
