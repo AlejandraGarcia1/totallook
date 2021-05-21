@@ -5,6 +5,7 @@ import Stars from "../../Assets/clothes/stars.png";
 import Return from '../../Assets/img/return.png';
 import './Product.css'
 import Redes from '../../Assets/img/banners/Redes.png'
+import Hot from '../../Assets/img/banners/hot.png'
 
 const Product = () => {
 	const data = ProductData;
@@ -34,15 +35,27 @@ const Product = () => {
 					data.map((item) => {
 					if(item.id === 1 ){
 						return(
-							<div key={item.id} className='items'>							
-								<div className = "imagen">
-								<img src={Redes} alt="product" ></img>  
+							<div key={item.id} >	
+								<div>						
+									<div className = "imagen">
+										<img src={Redes} alt="product" ></img>								
+									</div>
 								</div>
-								<p className="">{item.product}</p>                
-								<p className="">{item.descripcion}</p>
-								<p className="">{item.color}</p>
-								<p className="">{item.size}</p>
-                <p className="">${item.price}</p>
+								<div>
+									<div className="hotOffert">
+										<img src={Hot} alt="hot" ></img> 
+									</div>
+								</div>
+								<div className="information">	
+								
+															
+								<p className="producTitle">Producto: {item.product}</p>                
+								<p className="">Descrpción: {item.descripcion}</p>
+								<p className="">Color: {item.color}</p>
+								<p className="">Talla: {item.size}</p>
+                <p className="">Precio: ${item.price} MXN</p>
+								</div>
+							
 								<button>
 									<img onClick = { restar } src = { '' } alt = "izquierda" className = "izquierda"/>
 								</button>								

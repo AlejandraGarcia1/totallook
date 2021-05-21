@@ -1,3 +1,19 @@
 .imagen{
-	background: #F7F0F0;
+	margin-left: 35px;
+}
+
+.hotOffert{
+	margin-top: -197px;
+	margin-left: 27px;
+}
+
+.information{
+	margin-left: 35px;
+	margin-top: 170px;
+	font-size: 13px;
+}
+
+.producTitle{
+	font-size: 15px;
+	font-weight: 500;
 }
