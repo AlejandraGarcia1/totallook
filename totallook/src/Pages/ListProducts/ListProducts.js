@@ -36,7 +36,9 @@ const ListProducts = () => {
           data.map((item) => (
             <div key={item.id} className='items'>
               <div className="boxItem">
-								 <img src={item.image} alt="img" className='itemImg'/>
+							<Link to="/product">
+                <img src={item.image} alt="img" className='itemImg'/>
+              </Link>								 
 								 <img src={Ofert} alt="ofert" className="ofert"></img> 
 			 				 </div>        
                 <p className="product">{item.product}</p>
