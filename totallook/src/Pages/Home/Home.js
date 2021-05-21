@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <Fragment>
-      <img src={banner1} alt='banner1Img'/>
+      <img src={banner1} alt='banner1Img' className="banner1"/>
       <div className="newCollection">
         <img src={banner2} alt='banner2Img' className="bannerchica"/>
         <img src={banner3} alt='banner3Img' className="bannerchico"/>
